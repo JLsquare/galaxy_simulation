@@ -1,0 +1,15 @@
+[package]
+name = "galaxy_simulation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.9.1"
+bevy_tasks = "0.9.1"
+rand = "0.8.5"
+rayon = "1.6.1"
+rust-gpu = "0.1.0"
+spirv-std = "0.5.0"
+wgpu = "0.15.1"
